@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="575.0" prefWidth="937.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField id="road1CarNum" layoutX="27.0" layoutY="186.0" prefHeight="36.0" prefWidth="100.0" />
+      <TextField id="road2CarNum" layoutX="242.0" layoutY="186.0" prefHeight="36.0" prefWidth="100.0" />
+      <TextField id="road3CarNum" layoutX="453.0" layoutY="186.0" prefHeight="36.0" prefWidth="100.0" />
+      <TextField id="road4CarNum" layoutX="671.0" layoutY="186.0" prefHeight="36.0" prefWidth="100.0" />
+      <TextField id="road5CarNum" layoutX="33.0" layoutY="378.0" prefHeight="36.0" prefWidth="100.0" />
+      <TextField id="road6CarNum" layoutX="255.0" layoutY="378.0" prefHeight="36.0" prefWidth="100.0" />
+      <TextField id="road7CarNum" layoutX="453.0" layoutY="378.0" prefHeight="36.0" prefWidth="100.0" />
+      <TextField id="road8CarNum" layoutX="667.0" layoutY="378.0" prefHeight="36.0" prefWidth="100.0" />
+      <Button id="addCar1" layoutX="29.0" layoutY="502.0" mnemonicParsing="false" text="addCar" />
+      <Button id="road1" layoutX="40.0" layoutY="126.0" mnemonicParsing="false" text="road1" />
+      <Button id="road2" layoutX="251.0" layoutY="126.0" mnemonicParsing="false" text="road2" />
+      <Button id="road3" layoutX="466.0" layoutY="126.0" mnemonicParsing="false" text="road3" />
+      <Button id="road4" layoutX="680.0" layoutY="126.0" mnemonicParsing="false" text="road4" />
+      <Button id="road5" layoutX="42.0" layoutY="324.0" mnemonicParsing="false" text="road5" />
+      <Button id="road6" layoutX="264.0" layoutY="324.0" mnemonicParsing="false" text="road6" />
+      <Button id="road7" layoutX="466.0" layoutY="324.0" mnemonicParsing="false" text="road7" />
+      <Button id="road8" layoutX="680.0" layoutY="324.0" mnemonicParsing="false" text="road8" />
+      <Button id="run" layoutX="339.0" layoutY="508.0" mnemonicParsing="false" text="开始执行" />
+      <Button id="monitor" layoutX="676.0" layoutY="508.0" mnemonicParsing="false" text="开始监听" />
+   </children>
+</Pane>
